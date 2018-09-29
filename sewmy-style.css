@@ -1,0 +1,47 @@
+body{
+    /* background-image: url("Images/b_w_sewing_m_closeup.jpg"); */
+    background-image: url("Images/scissors_thread.jpeg");
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background-color: black;  */
+    
+   }
+.w-dropdown-toggle {
+    white-space: normal;
+  }
+
+.container-padding{
+    margin-top: 50px
+}
+
+.comingsoon{
+    margin-top: 10rem;
+}
+
+.img-thumbnail{
+    opacity: 0.8;
+}
+
+.img-thumbnail:hover{
+    opacity: 0.6;
+
+}
+.card-img-caption {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+    
+  .card-img-caption .card-img-top {
+    z-index: 0;
+  }
+      
+  .card-img-caption .card-text {
+    text-align: center;
+    width: 100%;
+    margin: 33% 0;
+    position: absolute;
+    z-index: 1;
+  }
